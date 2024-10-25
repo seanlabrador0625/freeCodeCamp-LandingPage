@@ -176,7 +176,7 @@ form{
     grid-template-rows: auto;
     grid-gap: 10px;
     margin: 20px auto;
-    
+    place-content: center;
 }
 
 .S1{
@@ -191,7 +191,7 @@ form{
     grid-column: 4/5;
 }
 
-/* .card {
+.card {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -201,7 +201,7 @@ form{
     background-color: white; 
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.437); 
-} */
+}
 
 .S1 img, .S2 img, .S3 img {
     width: 100%; 
