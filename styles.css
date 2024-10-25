@@ -359,5 +359,6 @@ footer p{
 
     #Features img, #Pricing img {
         width: 20%;
+        height: auto;
     }
 }
