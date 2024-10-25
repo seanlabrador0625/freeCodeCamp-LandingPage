@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">   
+    <title>Landing Page</title>
+</head>
+<body>
+<main>
+
+    <div class="top-container">
+        <header id="header">
+            <img id="header-img" src="images/nike.png" alt="Nike Logo" > 
+            <!-- <h1 id="title">Nike</h1> -->
+            <nav id="nav-bar">
+                <a href="#Features" class="nav-link">Features</a>
+                <a href="#Shoes" class="nav-link">Shoes</a>
+                <a href="#Pricing" class="nav-link">Pricing</a>
+            </nav>
+        </header>
+    </div>
+
+    <div class="main-container">
+        
+        <div class="form">
+            <h1>Your Next Pair of Shoes</h1>
+            <form method="post" action="https://www.freecodecamp.com/email-submit" id="form">
+                <input type="email" id="email" name="email" placeholder="Enter your email address">
+                <input type="submit" id="submit" value="Get Started">
+            </form>
+        </div>
+    
+
+        <div id="Features">
+            <div class="feature-container">
+                <div class="F1">
+                    <img src="images/Feature_Icon/F1.png" alt="F1-icon" width="200" height="300">
+                    <div class="text">
+                        <h2>Advanced Cushioning Technology</h2>
+                        <p class="text">Nike is known for its signature cushioning technologies like Nike Air, Zoom Air, and React foam. 
+                            These innovations offer a unique combination of lightweight support, shock absorption, and energy 
+                            return, enhancing comfort for activities ranging from running to casual wear.</p>
+                    </div>
+                </div>
+
+                <div class="F2">
+                    <img src="images/Feature_Icon/F2.png" alt="F2-icon" width="200" height="300">
+                    <div class="text">
+                        <h2>Durable and Breathable Materials</h2>
+                        <p class="text">Nike uses high-quality materials like Flyknit and Flywire that provide breathability, flexibility, 
+                            and support. These materials allow the shoes to remain lightweight while still offering durability and reducing 
+                            irritation from excessive sweating or rubbing during wear.</p>
+                    </div>
+                </div>
+
+                <div class="F3">
+                    <img src="images/Feature_Icon/F3.png" alt="F3-icon" width="200" height="300"> 
+                    <div class="text">
+                        <h2>Innovative Traction and Stability Designs</h2>
+                        <p class="text">Nike’s soles often feature specialized treads, like those seen in Nike Free or Air Max models, 
+                                        that provide excellent traction on various surfaces. Nike's designs, such as the FlyEase entry system, 
+                                        also focus on stability and ease of wear, accommodating athletes and casual users alike, making them 
+                                        versatile for different terrains and activities.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="Shoes">
+            <iframe
+                id="video"
+                height="315"
+                src="https://youtu.be/YLxqcfHuVQ8?si=ABcFoTcq19pRCr-J"
+                frameborder="0"
+                allowfullscreen
+            ></iframe>
+        </div>
+
+        <div id="Pricing">
+            
+            <div class="pricing-cards-container">
+
+                <div class="S1 card">
+                    <h2>Nike Pegasus</h2>
+                    <img src="images/Shoes/S1.png" alt="F1-icon" width="200" height="300"> 
+                    <ul>
+                        <li>Neutral running shoe</li>
+                        <li>Responsive cushioning</li>
+                        <li>Lightweight and breathable</li>
+                        <li>Price: $120</li>
+                    </ul>
+                </div>
+
+                <div class="S2 card">
+                    <h2>Nike AirMax 97</h2>
+                    <img src="images/Shoes/S2.png" alt="F1-icon" width="200" height="300"> 
+                    <ul>
+                        <li>Neutral running shoe</li>
+                        <li>Responsive cushioning</li>
+                        <li>Lightweight and breathable</li>
+                        <li>Price: $130</li>
+                    </ul>
+                </div>
+
+                <div class="S3 card">
+                    <h2>Nike Vomero</h2>
+                    <img src="images/Shoes/S3.png" alt="F1-icon" width="200" height="300"> 
+                    <ul>
+                        <li>Neutral running shoe</li>
+                        <li>Responsive cushioning</li>
+                        <li>Lightweight and breathable</li>
+                        <li>Price: $150</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+        <div>
+            <a href="#header">Privacy</a>
+            <a href="#header">Terms</a>
+            <a href="#header">Contact</a>
+            <p>&copy; 2021 Nike Inc.</p>
+        </div>
+    </footer> 
+</main>
+</body>
+</html>
