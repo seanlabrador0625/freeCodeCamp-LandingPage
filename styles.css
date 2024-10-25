@@ -176,6 +176,7 @@ form{
     grid-template-rows: auto;
     grid-gap: 10px;
     margin: 20px auto;
+    place-content: center;
 }
 
 .S1{
