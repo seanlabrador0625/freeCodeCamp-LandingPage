@@ -345,6 +345,16 @@ footer p{
         width: 50%;
     }
 
+    .feature-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .F1, .F2, .F3{
+        margin: auto;
+        width: 90%;
+    }
+
     .pricing-cards-container {
         grid-template-columns: 1fr;
     }
