@@ -21,11 +21,11 @@ header{
     top: 0;
 }
 
-header h1{
+/* header h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
     margin-left: -880px;
-}
+} */
 
 header img{
     width: 100px;
